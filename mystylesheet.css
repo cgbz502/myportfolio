@@ -1,0 +1,1103 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
+
+
+.super-awesome-class {
+	background-color:lime;
+}
+
+/* MEDIA QUERIES START */
+
+@media screen and (max-width:310px){
+	.page-wrapper .page-wrappertwo #skills p {
+		width: 170px;
+	}
+	.page-wrapper .page-wrappertwo h3{
+		font-size: 17px;
+	}
+	
+}
+
+@media screen and (max-width:330px){
+	.page-wrapper .page-wrappertwo h1{
+		font-size: 21px !important;
+	}
+	
+	.page-wrapper .page-wrappertwo #home h1{
+		font-size: 24px !important;
+		padding-top: 135px;
+	}
+}
+
+@media screen and (max-width:370px){
+	.page-wrapper .page-wrappertwo #home h1{
+		padding-top: 135px !important;
+
+	}
+}
+
+@media screen and (max-width:432px){
+	.page-wrapper .page-wrappertwo h1{
+		font-size: 25px;
+
+	}
+}
+
+@media screen and (max-width:500px){
+	.page-wrapper .page-wrappertwo #experience .jobtitlebgcolor {
+	width: initial;
+	border-radius: 0px;	
+    }
+	
+	.page-wrapper .page-wrappertwo #education .jobtitlebgcolor {
+	width: initial;
+	border-radius: 0px;	
+    }
+}
+
+@media screen and (max-width:601px){
+	.page-wrapper .page-wrappertwo #home h1{
+		padding-top: 90px;
+
+	}
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color: #333;
+    }
+	 
+    .page-wrapper .page-wrappertwo {
+	background-color: red;
+}
+	
+	#home .intro-class {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 100%;
+		width:100%;
+		margin: auto;
+	}
+	
+	#home h1 {
+		padding-top: 80px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	
+	li   {
+    float: left;
+	font-family: 'Montserrat', sans-serif;
+    }
+	
+    .contentwrapper li  a.scroll:hover{
+	background-color: green;
+	}
+	
+    .contentwrapper .dropdown .dropdown-content a:hover {
+	background-color: #f1f1f1;
+	}
+	
+	.contentwrapper li  a.scroll:active{
+	background-color: green;
+	}
+	
+    .contentwrapper .dropdown .dropdown-content a:active {
+	background-color: #f1f1f1;
+	}
+	
+	.dropdown-content a.scroll{
+	display: none;	
+	}
+	
+	.position-test {
+	display: none;
+	}
+	
+	.mcw {
+		display: none;
+	}
+	
+	.mcwtwo{
+	display: none;
+    }
+	
+	.mcwthree{
+	display: none;
+    }
+	
+	.mcwfour{
+	display: none;	
+	}
+	
+	.mcwfive{
+	display: none;	
+	}
+	
+	.mcwsix{
+	display: none;	
+	}
+	
+	.owl-wrapper{
+	display: initial !important; 	
+	display: inherit !important; 
+	height: auto;
+	}	
+	
+	.owl-wrappertwo{
+	display: initial !important; 	
+	display: inherit !important; 
+	height: auto;
+	}	
+	
+	.owl-wrapperthree{
+	display: initial !important; 	
+	display: inherit !important; 
+	height: auto;
+	}	
+	
+	.owl-wrapperfour{
+	display: initial !important; 	
+	display: inherit !important; 
+	height: auto;
+	}
+
+	.owl-wrapperfive{
+	display: initial !important; 	
+	display: inherit !important; 
+	height: auto;
+	}	
+	
+	.owl-wrappersix{
+	display: initial !important; 	
+	display: inherit !important; 
+	height: auto;
+	}	
+	
+	.footer {
+		display: none;
+	}
+
+}
+
+/* MEDIA QUERIES END */
+
+.owl-wrapper{
+	display: none;
+}
+
+.owl-wrappertwo{
+	display: none;
+}
+
+.owl-wrapperthree{
+	display: none;
+}
+
+.owl-wrapperfour{
+	display: none;
+}
+
+.owl-wrapperfive{
+	display: none;
+}
+
+.owl-wrappersix{
+	display: none;
+}
+
+.page-wrapper {
+	background-color: white;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+.page-wrappertwo {
+	background-color: white;
+	width: 80%;
+    text-align: center;
+	margin: auto;
+	box-shadow: 0 20px 50px rgba(0,0,0,.3);
+	box-sizing: border-box;
+}
+
+#home {
+	background-color: white;
+    text-align: center;
+	margin: auto;
+}
+
+#home img {
+	border-radius: 75px;
+    margin: auto;
+
+}
+
+
+.headertitlebgcolor {
+    text-align: center;
+	margin: auto;
+	color: black;
+	border: 3px solid #E04937; 
+	text-shadow: 3px 0px 71px white;
+	box-shadow: 0 20px 50px rgba(0,0,0,.3);
+	background-color: #E04937;
+}
+
+
+.intro-class{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+	width:50%;
+	margin: auto;
+	
+}
+
+.intro-class p {
+	color: black;
+	text-align: center;
+
+}
+
+#bordershadow{
+	background-color: white;
+	width: 80%;
+    text-align: center;
+	margin: auto;
+	box-shadow: 0 20px 50px rgba(0,0,0,.3);
+	box-sizing: border-box;
+}
+
+#education {
+	background-color: white;
+    text-align: center;
+	margin: auto;
+	color: #2db119;
+}
+
+#education p{
+    text-align: center;
+	margin: auto;
+	color: #2A702F;
+	text-shadow: 3px 0px 71px white;
+}
+
+#experience {
+	background-color: white;
+    text-align: center;
+	margin: auto;
+}
+
+#experience p{
+    text-align: center;
+	margin: auto;
+	color: #2A702F;
+	text-shadow: 3px 0px 71px white;
+}
+
+.jobtitlebgcolor {
+	text-align: center;
+	width:300px;
+	margin: auto;
+	color: black;
+	background-color: #1ba8e5;
+	border: 3px solid #1ba8e5; 
+	border-radius: 25px;
+	text-shadow: 3px 0px 71px white;
+	box-shadow: 0 20px 50px rgba(0,0,0,.3);
+}
+
+
+button{
+	padding:5px;
+}
+
+#skills{
+	background-color: white;
+	color: black;
+    text-align: center;
+	margin: auto;
+
+}
+
+#skills p {
+	color: black;
+	background-color: #77CB6A;
+	border: 3px solid #77CB6A; 
+	width: 180px;
+	margin: auto;
+	margin-bottom: 7px;
+	border-radius: 25px;
+	text-shadow: 3px 0px 71px white;
+	box-shadow: 0 20px 50px rgba(0,0,0,.3);
+}
+
+#portfolio{
+	background-color: white;
+    text-align: center;
+	margin: auto;
+	box-shadow: 0 20px 50px rgba(0,0,0,.3);
+	box-sizing: border-box;
+}
+
+#photo{
+	display: none;
+}
+
+.mycourousel-wrapper{
+	position:relative;
+	margin: 20px auto;
+	border: 10px solid #fff;
+	display: block;
+}
+
+/* ***START OF CAROUSEL**
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  
+*/
+.mycarousel {
+    width:100%;
+	position: relative;
+    overflow: hidden;
+	display: block;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.mycarousel ul {
+    width: 100000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.mycarousel li {
+    /* Required only for block elements like <li>'s */
+    width: 698px;
+	float: left;
+    border: 1px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.mycarousel img {
+	display: block;
+	max-width: 100%;
+	height: auto; 
+}
+
+.mycarousel-prev{
+	left: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+.mycarousel-next{
+	right: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+/* END OF CAROUSEL** */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  ***START OF CAROUSEL**
+*/
+
+/* ***START OF CAROUSEL**
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  
+*/
+.mycarouseltwo {
+    width:100%;
+	position: relative;
+    overflow: hidden;
+	display: block;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.mycarouseltwo ul {
+    width: 100000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.mycarouseltwo li {
+    /* Required only for block elements like <li>'s */
+    width: 698px;
+	float: left;
+    border: 1px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.mycarouseltwo img {
+	display: block;
+	max-width: 100%;
+	height: auto; 
+}
+
+.mycarouseltwo-prev{
+	left: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+.mycarouseltwo-next{
+	right: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+/* END OF CAROUSEL** */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  ***START OF CAROUSEL**
+*/
+
+.mycarouselthree {
+    width:100%;
+	position: relative;
+    overflow: hidden;
+	display: block;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.mycarouselthree ul {
+    width: 100000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.mycarouselthree li {
+    /* Required only for block elements like <li>'s */
+	
+	float: left;
+    border: 1px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.mycarouselthree img {
+	display: block;
+	max-width: 100%;
+	height: 576px; 
+}
+
+.mycarouselthree-prev{
+	left: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+.mycarouselthree-next{
+	right: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+/* END OF CAROUSEL** */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  ***START OF CAROUSEL**
+*/
+.mycarouselfour {
+    width:100%;
+	position: relative;
+    overflow: hidden;
+	display: block;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.mycarouselfour ul {
+    width: 100000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.mycarouselfour li {
+    /* Required only for block elements like <li>'s */
+	
+	float: left;
+    border: 1px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.mycarouselfour img {
+	display: block;
+	max-width: 100%;
+	height: 576px; 
+}
+
+.mycarouselfour-prev{
+	left: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+.mycarouselfour-next{
+	right: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+/* END OF CAROUSEL** */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  ***START OF CAROUSEL**
+*/
+.mycarouselfive {
+    width:100%;
+	position: relative;
+    overflow: hidden;
+	display: block;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.mycarouselfive ul {
+    width: 100000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.mycarouselfive li {
+    /* Required only for block elements like <li>'s */
+	
+	float: left;
+    border: 1px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.mycarouselfive img {
+	display: block;
+	max-width: 100%;
+	height: 576px; 
+}
+
+.mycarouselfive-prev{
+	left: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+.mycarouselfive-next{
+	right: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+/* END OF CAROUSEL** */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!  ***START OF CAROUSEL**
+*/
+.mycarouselsix {
+    width:100%;
+	position: relative;
+    overflow: hidden;
+	display: block;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.mycarouselsix ul {
+    width: 100000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	left: -500px;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.mycarouselsix li {
+    /* Required only for block elements like <li>'s */
+	
+	float: left;
+    border: 1px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.mycarouselsix img {
+	display: block;
+	max-width: 100%;
+	height: 576px; 
+}
+
+.mycarouselsix-prev{
+	left: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+.mycarouselsix-next{
+	right: 15px;
+	position:absolute;
+	top:50%;
+	margin-top:-15px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #CE0F0F;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 0 1px #000;
+	font: 24px/27px Arial, sans-serif;
+	border-radius:30px;
+	box-shadow: 0 0 4px #F0EFE7;
+}
+
+/* END OF CAROUSEL** */
+
+.showRest {
+	margin: auto;
+}
+
+.animated-object{
+    opacity:0;
+	height: 0;
+
+}
+
+/*NEW NAV BAR START*/
+.contentwrapper{
+	position:fixed;
+	width:100%;
+	list-style-type: none;
+    margin-top: 0;
+	top: 0;
+	left: 0;
+    padding: 0;
+	z-index: 9999;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+li a, .scroll {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #E04937;
+	
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+/*NEW NAV BAR END*/
+
+body{
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	
+}
+
+
+#home h1 {
+	padding-top: 50px;
+	color: black;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	background-color: white;
+}
+
+h1 {
+	color: black;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+
+}
+
+h2 {
+	color: black;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+
+	
+}
+
+h3 {
+	color: black;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+h4 {
+	color: black;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.footer{
+	width: 100%;
+	margin: auto;
+	background-color: #333; 
+	text-align: center;
+	height: 28px;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+}
+
+.footer p {
+	display: inline-block;
+	color: white;
+	font-size: .66em;
+	margin: auto;
+	
+	/*margin-left: 845px;
+  margin-top: 9px; 
+  */
+}
+
+.footer img {
+	width: 22px;
+	float: right;
+	margin-top: 3px;
+	margin-right: 836px;
+	display: none;
+
+}
+
+/*CHAY FADE IN START*/
+.fade-in {
+    -webkit-transition: opacity 3s, bottom 2s ease;
+    transition: opacity 3s, bottom 2s ease;
+    bottom: 0px;
+    color: #e74c3c;
+    opacity: 1;
+  }
+
+  b {
+    bottom: -50px;
+    opacity: 0;
+    position: relative;
+  }
+/*CHAY FADE IN END*/
+  
+  
+/*NAV BAR START*/
+/*ul {
+    list-style-type: none;
+    margin-top: 0;
+	top: 0;
+	left: 0;
+    padding: 0;
+    width: 100%;
+	position: fixed; 
+	z-index: 9999;
+    background-color: #333;
+	
+}
+
+li {
+    float: left;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}*/
+/*NAV BAR END*/
+
+
+
+
+.position-test {
+	position: absolute;
+	position: fixed;
+	bottom: 28px;
+	right: 0;
+	width: 70px;
+	border: 3px solid red;
+}
+
+.position-test .scroll {
+	font-family: 'Montserrat', sans-serif;	
+	margin: auto;
+	color:red;
+	text-align:center;
+}
+
+/*a:hover {
+	color:blue;
+	font-size: 3em;
+	
+}*/
+
+p{
+font-family: 'Montserrat', sans-serif;	
+ margin-right: 10px;
+ margin-left: 10px;	
+ color:red;
+ text-align:center;
+}
